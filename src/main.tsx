@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./assets/css/globals.css";
-import { Home } from "./pages/Home";
+import { Dashboard } from "./pages/Dashboard";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <Home />
+    <Dashboard />
   </React.StrictMode>
 );
