@@ -1,17 +1,16 @@
-<h1 align="center">Components TailwindCSS</h1>
+<h1 align="center">Calculator</h1>
 
-<!--
+
 <h6 align="center"> 
-	If you want to view the system, click <a href="">here</a>.
+	If you want to view the system, click <a href="https://vite-react-calculator.vercel.app/">here</a>.
 </h6>
--->
 
 <h3 id="sobre">:information_source: About</h3>
 
 > This project was developed using React, TypeScript, TailwindCSS and Vite.
 
 The idea is:
-_"Create a project based on the use and implementation of several component models. Aiming to build the frontend of the application in order to promote learning in the area related to Vite, React, TypeScript and TailwindCSS."_
+_""_
 
 --------------------------------------------------------------------------------------
 
@@ -54,8 +53,6 @@ Used tools:
 - [TypeScript v4.6.4](https://www.typescriptlang.org/)
 - [Vite v3.2.4](https://vitejs.dev/)
 - [TailwindCSS v3.2.4](https://tailwindcss.com/docs/installation)
-- [Phosphor Icons v1.4.1](https://phosphoricons.com/)
-- [React Router Dom v6.4.4](https://reactrouter.com/en/main)
 
 --------------------------------------------------------------------------------------
 
@@ -103,4 +100,4 @@ Thanks for visiting and good coding!<br />
 
 <h3 id="license">:memo: License</h3>
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LucasSantus/vite-react-tailwindcss-components/blob/master/LICENSE) for better details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LucasSantus/vite-react-typescript-tailwindcss-calculator/blob/master/LICENSE) for better details.
