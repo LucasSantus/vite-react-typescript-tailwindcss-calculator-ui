@@ -1,5 +1,4 @@
 import { classNames } from "../../../utils/classNames";
-import "./../styles.css";
 
 export interface ICalculatorButtonProps {
   text: string;
