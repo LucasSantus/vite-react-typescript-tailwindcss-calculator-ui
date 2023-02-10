@@ -7,7 +7,7 @@ import {
 const BUTTONS: ICalculatorButtonProps[] = [
   {
     text: "CE",
-    textColor: "text-custom-zinc-600",
+    textColor: "text-custom-zinc-400",
   },
   {
     text: "C",
@@ -76,8 +76,26 @@ const BUTTONS: ICalculatorButtonProps[] = [
 export const Calculator = () => {
   return (
     <CalculatorBody>
-      {/* TODO: remover index da key */}
+      <div className="h-[86] w-full p-4">
+        <div className="flex justify-end w-full gap-1">
+          <span className="text-xl font-normal font-rubik text-custom-gray-600">
+            1
+          </span>
+          <span className="text-xl font-normal font-rubik text-custom-gray-600">
+            +
+          </span>
+          <span className="text-xl font-normal font-rubik text-custom-gray-600">
+            1
+          </span>
+        </div>
+        <div className="flex justify-between">
+          <div className="text-4xl text-custom-zinc-400">{"="}</div>
+          <div className="text-custom-gray-200 text-4xl">2</div>
+        </div>
+      </div>
+
       <div className="grid grid-cols-4 gap-4">
+        {/* TODO: remover index da key */}
         {BUTTONS.map(({ text, textColor, backgroundColor }, index) => (
           <div className="">
             <CalculatorButton
