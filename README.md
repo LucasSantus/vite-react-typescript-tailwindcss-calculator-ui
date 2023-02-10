@@ -5,12 +5,18 @@
 	If you want to view the project, click <a href="https://vite-react-calculator.vercel.app/">here</a>.
 </h6>
 
+<h6 align="center"> 
+	If you want to see the figma, click <a href="https://www.figma.com/file/RfnU1zZwWt360seqcbxtEe/%23boraCodar---Desafio-5-(Community)?node-id=0%3A1&t=JGcdWtPK99r3Q5ps-0">here</a>.
+</h6>
+
 <h3 id="sobre">:information_source: About</h3>
 
 > This project was developed using React, TypeScript, TailwindCSS and Vite.
 
 The idea is:
-_""_
+_"Create a simple calculator using Vite, React, TypeScript and TailwindCSS."_
+
+Project developed by me participating in #boraCodar5 created by <a href="https://app.rocketseat.com.br/dashboard">RockeatSeat</a>.
 
 --------------------------------------------------------------------------------------
 
@@ -19,7 +25,6 @@ _""_
 * [About](#sobre)
 * [Contents](#tabela-de-conteudo)
 * [Status](#status)
-* [Why](#por-que)
 * [Technologies](#tecnologias)
 * [Project Installation](#instalando)
 * [Author](#autor)
@@ -32,16 +37,6 @@ _""_
 <h4 align="center">
  :construction: Project in progress... :construction:
 </h4>
-
---------------------------------------------------------------------------------------
-
-<h3 id="por-que">:question: Why</h3>
-
-This project is part of my personal portfolio, I will be happy if you provide some feedback, code, structure, functionality or any feature&improvement you can report to improve it.
-
-You can use this project however you want, whether it's for studying, making improvements, you call the shots!
-
-This is a totally free project!
 
 --------------------------------------------------------------------------------------
 
