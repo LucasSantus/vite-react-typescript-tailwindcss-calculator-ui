@@ -18,7 +18,14 @@ module.exports = {
             600: "#462878",
             900: "#2D2A37",
           },
+          gray: {
+            200: "#EBEBEB",
+            600: "#6B6B6B",
+          },
         },
+      },
+      fontFamily: {
+        rubik: ["Rubik ", "sans-serif"],
       },
     },
   },
