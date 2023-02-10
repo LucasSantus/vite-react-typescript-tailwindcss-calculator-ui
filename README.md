@@ -13,9 +13,6 @@
 
 > This project was developed using React, TypeScript, TailwindCSS and Vite.
 
-The idea is:
-_"Create a simple calculator using Vite, React, TypeScript and TailwindCSS."_
-
 Project developed by me participating in #boraCodar5 created by <a href="https://app.rocketseat.com.br/dashboard">RockeatSeat</a>.
 
 --------------------------------------------------------------------------------------
