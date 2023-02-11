@@ -13,7 +13,7 @@
 
 > This project was developed using React, TypeScript, TailwindCSS and Vite.
 
-Project developed by me participating in #boraCodar5 created by <a href="https://app.rocketseat.com.br/dashboard">RockeatSeat</a>.
+Project developed by me participating in #boraCodar5 created by <a href="https://app.rocketseat.com.br">RockeatSeat</a>.
 
 --------------------------------------------------------------------------------------
 
@@ -32,7 +32,7 @@ Project developed by me participating in #boraCodar5 created by <a href="https:/
 <h3 id="status">:heavy_exclamation_mark: Status</h3>
 
 <h4 align="center">
- :construction: Project in progress... :construction:
+ :heavy_check_mark: Finished project :heavy_check_mark:
 </h4>
 
 --------------------------------------------------------------------------------------
