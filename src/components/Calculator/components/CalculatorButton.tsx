@@ -1,28 +1,24 @@
 import { classNames } from "../../../utils/classNames";
-
-export interface ICalculatorButtonProps {
-  text: string;
-  backgroundColor?: string;
-  textColor?: string;
-  fontSize?: string;
-}
+import { ICalculatorButtonProps } from "../types";
 
 export const CalculatorButton = ({
-  text,
+  icon,
   backgroundColor = "bg-custom-zinc-900",
   textColor = "text-white",
   fontSize = "text-2xl",
+  ...props
 }: ICalculatorButtonProps) => {
   return (
     <button
+      {...props}
       className={classNames(
-        "w-16 h-16 rounded-full flex justify-center items-center shadow-button-calculator hover:opacity-60",
-        backgroundColor
+        "w-16 h-16 rounded-full flex justify-center items-center shadow-button-calculator hover:opacity-60 font-normal",
+        backgroundColor,
+        textColor,
+        fontSize
       )}
     >
-      <span className={classNames("font-normal", textColor, fontSize)}>
-        {text}
-      </span>
+      {icon}
     </button>
   );
 };

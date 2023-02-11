@@ -1,82 +1,14 @@
+import { IconEqual } from "../icons/IconEqual";
 import { CalculatorBody } from "./components/CalculatorBody";
-import {
-  CalculatorButton,
-  ICalculatorButtonProps,
-} from "./components/CalculatorButton";
+import { CalculatorButton } from "./components/CalculatorButton";
+import { BUTTON_OPTIONS } from "./constants";
 
-const BUTTONS: ICalculatorButtonProps[] = [
-  {
-    text: "CE",
-    textColor: "text-custom-zinc-400",
-  },
-  {
-    text: "C",
-  },
-  {
-    text: "%",
-  },
-  {
-    text: "/",
-    backgroundColor: "bg-custom-zinc-600",
-  },
-  {
-    text: "7",
-  },
-  {
-    text: "8",
-  },
-  {
-    text: "9",
-  },
-  {
-    text: "*",
-    backgroundColor: "bg-custom-zinc-600",
-  },
-  {
-    text: "4",
-  },
-  {
-    text: "5",
-  },
-  {
-    text: "6",
-  },
-  {
-    text: "-",
-    backgroundColor: "bg-custom-zinc-600",
-  },
-  {
-    text: "1",
-  },
-  {
-    text: "2",
-  },
-  {
-    text: "3",
-  },
-  {
-    text: "+",
-    backgroundColor: "bg-custom-zinc-600",
-  },
-  {
-    text: "",
-  },
-  {
-    text: "0",
-  },
-  {
-    text: ",",
-  },
-  {
-    text: "=",
-    backgroundColor: "bg-custom-zinc-400",
-  },
-];
+interface ICalculatorProps {}
 
-export const Calculator = () => {
+export const Calculator = ({}: ICalculatorProps) => {
   return (
     <CalculatorBody>
-      <div className="h-[86] w-full p-4">
+      <div className="h-[86] w-full px-8 pt-4">
         <div className="flex justify-end w-full gap-1">
           <span className="text-xl font-normal font-rubik text-custom-gray-600">
             1
@@ -88,24 +20,32 @@ export const Calculator = () => {
             1
           </span>
         </div>
-        <div className="flex justify-between">
-          <div className="text-4xl text-custom-zinc-400">{"="}</div>
-          <div className="text-custom-gray-200 text-4xl">2</div>
+        <div className="flex justify-between items-center">
+          <div className="text-4xl text-custom-zinc-400 items-end">
+            <IconEqual />
+          </div>
+
+          <input
+            type="text"
+            className="bg-transparent text-custom-gray-200 text-4xl w-full focus:outline-none text-right"
+            placeholder="2"
+            disabled
+          />
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-4">
-        {/* TODO: remover index da key */}
-        {BUTTONS.map(({ text, textColor, backgroundColor }, index) => (
-          <div className="">
+      <div className="flex justify-center items-center w-full pt-10">
+        <div className="grid grid-cols-4 gap-2 sm:gap-3">
+          {BUTTON_OPTIONS.map(({ id, icon, textColor, backgroundColor }) => (
             <CalculatorButton
-              key={index}
-              text={text}
+              key={id}
+              id={id}
+              icon={icon}
               backgroundColor={backgroundColor}
               textColor={textColor}
             />
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </CalculatorBody>
   );
