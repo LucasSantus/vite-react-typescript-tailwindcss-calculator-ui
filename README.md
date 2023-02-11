@@ -2,7 +2,7 @@
 
 
 <h6 align="center"> 
-	If you want to view the project, click <a href="https://vite-react-calculator.vercel.app/">here</a>.
+	If you want to view the project, click <a href="https://vite-react-typescript-tailwindcss-calculator.vercel.app/">here</a>.
 </h6>
 
 <h6 align="center"> 
