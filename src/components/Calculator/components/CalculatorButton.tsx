@@ -1,11 +1,13 @@
 import { classNames } from "../../../utils/classNames";
 import { ICalculatorButtonProps } from "../types";
 
+const DEFAULT_BACKGROUND_COLOR = "bg-custom-zinc-900";
+const DEFAULT_TEXT_COLOR = "text-white";
+
 export const CalculatorButton = ({
   icon,
-  backgroundColor = "bg-custom-zinc-900",
-  textColor = "text-white",
-  fontSize = "text-2xl",
+  backgroundColor = DEFAULT_BACKGROUND_COLOR,
+  textColor = DEFAULT_TEXT_COLOR,
   ...props
 }: ICalculatorButtonProps) => {
   return (
@@ -14,8 +16,7 @@ export const CalculatorButton = ({
       className={classNames(
         "w-16 h-16 rounded-full flex justify-center items-center shadow-button-calculator hover:opacity-60 font-normal",
         backgroundColor,
-        textColor,
-        fontSize
+        textColor
       )}
     >
       {icon}

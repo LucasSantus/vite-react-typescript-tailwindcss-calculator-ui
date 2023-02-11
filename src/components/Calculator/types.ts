@@ -6,5 +6,4 @@ export interface ICalculatorButtonProps
   icon: ReactNode;
   backgroundColor?: string;
   textColor?: string;
-  fontSize?: string;
 }
