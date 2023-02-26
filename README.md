@@ -92,4 +92,4 @@ Thanks for visiting and good coding!<br />
 
 <h3 id="license">:memo: License</h3>
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LucasSantus/vite-react-typescript-tailwindcss-calculator/blob/master/LICENSE) for better details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LucasSantus/vite-react-typescript-tailwindcss-calculator-ui/blob/master/LICENSE) for better details.
