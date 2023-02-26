@@ -6,7 +6,7 @@
 </h6>
 
 <h6 align="center"> 
-	If you want to see the figma, click <a href="https://www.figma.com/file/RfnU1zZwWt360seqcbxtEe/%23boraCodar---Desafio-5-(Community)?node-id=0%3A1&t=JGcdWtPK99r3Q5ps-0">here</a>.
+	If you want to see the figma, click <a href="https://www.figma.com/file/RfnU1zZwWt360seqcbxtEe/%23boraCodar5?node-id=0%3A1&t=h9CjmoAS1j1dZ1iQ-0">here</a>.
 </h6>
 
 <h3 id="sobre">:information_source: About</h3>
