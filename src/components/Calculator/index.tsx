@@ -5,7 +5,7 @@ import { BUTTON_OPTIONS } from "./constants";
 
 interface ICalculatorProps {}
 
-export const Calculator = ({}: ICalculatorProps) => {
+export const Calculator: React.FC<ICalculatorProps> = ({}) => {
   return (
     <CalculatorBody>
       <div className="h-[86] w-full px-8 pt-4">
@@ -40,6 +40,7 @@ export const Calculator = ({}: ICalculatorProps) => {
             <CalculatorButton
               key={id}
               id={id}
+              name={id}
               icon={icon}
               backgroundColor={backgroundColor}
               textColor={textColor}
