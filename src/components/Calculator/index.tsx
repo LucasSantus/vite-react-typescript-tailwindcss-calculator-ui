@@ -1,3 +1,4 @@
+import { classNames } from "../../utils/classNames";
 import { IconEqual } from "../icons/IconEqual";
 import { CalculatorBody } from "./components/CalculatorBody";
 import { CalculatorButton } from "./components/CalculatorButton";
@@ -40,10 +41,10 @@ export const Calculator: React.FC<ICalculatorProps> = ({}) => {
             <CalculatorButton
               key={id}
               id={id}
-              name={id}
               icon={icon}
               backgroundColor={backgroundColor}
               textColor={textColor}
+              aria-label={classNames("aria", id)}
             />
           ))}
         </div>
